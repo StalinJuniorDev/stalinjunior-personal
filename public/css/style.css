@@ -1,0 +1,33 @@
+body{
+    background-color: #1B2430;
+    color: #fff;
+}
+a{
+    text-decoration-line: none;
+}
+a:hover{
+    text-decoration-line: underline;
+}
+.iletisim{
+    background-color: #6d28d9;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+.iletisim:hover{
+    background-color: #6d28d9;
+    border: none;
+}
+.form-control{
+    border-radius: 10px;
+    border: none;
+    background-color: #1f2937;
+    color: #fff;
+    resize: none;
+}
+.form-control:focus{
+    box-shadow: none;
+    background-color: #1f2937;
+    color: #fff;
+    resize: none;
+}
