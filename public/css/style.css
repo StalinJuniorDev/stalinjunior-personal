@@ -1,33 +1,39 @@
 body{
-    background-color: #1B2430;
-    color: #fff;
+    background-color: #1a1a1a;
+    color: #b1b1b1;
 }
 a{
     text-decoration-line: none;
+    color: #979797;
 }
 a:hover{
     text-decoration-line: underline;
 }
-.iletisim{
-    background-color: #6d28d9;
-    color: #fff;
-    border-radius: 10px;
-    border: none;
+.navbar{
+    background-color: #1a1a1ae7;
+    border-bottom: 1px solid #363636;
 }
-.iletisim:hover{
-    background-color: #6d28d9;
-    border: none;
+.img{
+    transition: 0.9s;
 }
-.form-control{
-    border-radius: 10px;
-    border: none;
-    background-color: #1f2937;
-    color: #fff;
-    resize: none;
+.img:hover{
+    transform: rotate(360deg);
 }
-.form-control:focus{
-    box-shadow: none;
-    background-color: #1f2937;
+i{
+    transition: 0.9s;
+}
+i:hover{
+    transform: rotate(360deg);
+}
+.nodejs{
+    transition: 0.5s;
+    padding-left: 7px;
+    padding-right: 7px;
+    color: #198754;
+    border-radius: 100px;   
+}
+.nodejs:hover{
+    background-color: #198754;
+    text-decoration-line: none;
     color: #fff;
-    resize: none;
 }
